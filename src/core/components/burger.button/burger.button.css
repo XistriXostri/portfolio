@@ -1,0 +1,32 @@
+.burgerButton,
+.burgerButton--active {
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background: transparent;
+    gap: 0.65rem;
+}
+
+.burgerButton > div,
+.burgerButton--active > div {
+    background: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+.burgerButton--active div:first-child {
+    transform: rotate(45deg);
+}
+
+.burgerButton--active div:nth-child(2) {
+    opacity: 0;
+}
+
+.burgerButton--active div:last-child {
+    transform: rotate(-45deg);
+}

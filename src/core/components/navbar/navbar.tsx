@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BurgerButton } from '../burger.button/burger.button';
 
 export function Navbar() {
-    const [navBarState, setNavBarState] = useState(false);
+    const [navBarState, setNavBarState] = useState(true);
 
     const handleClick = () => {
         setNavBarState(!navBarState);

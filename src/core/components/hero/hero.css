@@ -1,0 +1,126 @@
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero > div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.hero ul {
+    width: 150%;
+    height: 0;
+    padding: 0;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero ul li {
+    list-style: none;
+}
+
+.hero__buttons {
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.hero__buttons a {
+    background-color: var(--bg-buttons);
+    padding: 12px;
+    width: 10rem;
+    height: 2rem;
+    box-sizing: border-box;
+    color: var(--foreground);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__buttons a img {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.hero__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__name p {
+    font-weight: 600;
+}
+
+.hero__name h1 {
+    background: -webkit-linear-gradient(
+        -45deg,
+        #ee7752,
+        #e73c7e,
+        #23a6d5,
+        #23d5ab
+    );
+    background-size: 250%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1;
+    animation: gradient 5s ease infinite;
+    margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero ul {
+        width: 70%;
+        height: 5rem;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .hero__name h1 {
+        font-size: 2rem;
+    }
+
+    .hero__buttons {
+        display: flex;
+        width: 500px;
+        justify-content: space-evenly;
+    }
+
+    .hero__buttons a {
+        padding: 10px;
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.75rem;
+    }
+    .hero__buttons a img {
+        width: 1.7rem;
+        height: 1.2rem;
+    }
+}

@@ -5,7 +5,7 @@ export function Hero() {
             <div>
                 <ul>
                     <li>
-                        <a href="https://github.com/XistriXostri?tab=repositories">
+                        <a href="https://github.com/XistriXostri">
                             <img src="./icons/github.svg" alt="github icon" />
                         </a>
                     </li>

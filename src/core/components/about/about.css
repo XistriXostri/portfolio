@@ -1,0 +1,80 @@
+#aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 32px 0px 32px;
+    width: 100%;
+}
+
+.section__tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.section__tittle h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+.section__tittle > span {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.aboutMe__description p {
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.aboutMe__description span {
+    font-weight: 700;
+}
+
+.aboutMe__description a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--foreground);
+}
+
+.aboutMe__background {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.showEducation__button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    width: fit-content;
+    border-bottom: solid 2px var(--bg-buttons);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--text-buttons);
+}
+
+.showEducation__button img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.showEducation__button--disabled {
+    border: 0;
+}

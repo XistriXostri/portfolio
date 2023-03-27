@@ -1,0 +1,166 @@
+.projectCard {
+    display: flex;
+    margin-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 24rem;
+    position: relative;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.projectCard > img {
+    color: transparent;
+    border-radius: 0.25rem;
+    width: 60%;
+    height: 24rem;
+    right: 0;
+    position: absolute;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+}
+
+.projectCard__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 100%;
+    position: absolute;
+}
+
+.projectCard__info h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: start;
+    width: 40%;
+    font-weight: 40%;
+}
+.projectCard__info p {
+    font-weight: 700;
+    text-align: start;
+    padding: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+    background-color: var(--bg-buttons);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0.5rem;
+}
+
+.projectCard__info ul {
+    justify-content: center;
+    width: 40%;
+    margin-top: 0.75rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+}
+
+.projectCard__info ul li {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.25rem;
+    background-color: rgb(107 114 128);
+    border-radius: 0.25rem;
+}
+
+.projectCard__links {
+    display: flex;
+    padding-right: 1.25rem;
+    justify-content: flex-end;
+    width: 40%;
+    margin-bottom: 0;
+    margin-top: 1.25rem;
+    gap: 1.25rem;
+}
+
+.projectCard__links a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.othersProjects {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.othersProjects__card {
+    --tw-shadow-color: var(--nav-shadow);
+    --tw-shadow: var(--tw-shadow-colored);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    padding: 1.25rem;
+    border-color: var(--hover-nav);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    margin-top: 1.25rem;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.othersProjects__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.othersProjects__links > img {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+}
+
+.othersProjects__links > div {
+    gap: 0.75rem;
+    display: flex;
+}
+
+.othersProjects__links > div img {
+    cursor: pòinter;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.othersProjects__card h1 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.othersProjects__card p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-top: 0.75rem;
+}
+
+.othersProjects__labels {
+    font-weight: 700;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.othersProjects__labels div {
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    background-color: var(--bg-buttons);
+    border-radius: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}

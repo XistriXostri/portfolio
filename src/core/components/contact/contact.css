@@ -185,3 +185,25 @@
         width: 1%;
     }
 }
+
+@media (max-width: 850px) {
+    .contactMe {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contactMe__actionCall {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactMe__actionCall h1 {
+        align-items: center;
+    }
+
+    .contactMe__Form {
+        width: 100%;
+    }
+}

@@ -9,9 +9,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <StarsBackground>
-            <App />
-        </StarsBackground>
+        <StarsBackground />
+        <App />
     </React.StrictMode>
 );
 

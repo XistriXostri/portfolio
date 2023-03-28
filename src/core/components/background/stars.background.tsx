@@ -1,10 +1,11 @@
 import './stars.background.css';
-export function StarsBackground({ children }: { children: JSX.Element }) {
+export function StarsBackground() {
     return (
-        <section className="wrapper">
+        <section className="stars__background">
             <div id="stars"></div>
             <div id="stars2"></div>
-            {children}
+            <div id="stars3"></div>
+            <div id="stars4"></div>
         </section>
     );
 }

@@ -1,0 +1,54 @@
+.footer {
+    width: 100%;
+}
+
+.footer__bar {
+    border: 2px solid white;
+}
+
+.footer__acknowledgments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__acknowledgments > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__acknowledgments p {
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.footer__acknowledgments p:first-child {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+
+.footer__acknowledgments ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.25rem;
+}
+
+.footer__contactMeButton {
+    color: var(--text-buttons);
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    background-color: var(--bg-buttons);
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 4rem;
+    margin-top: 2.5rem;
+}

@@ -1,30 +1,14 @@
+import { SocialIcons } from '../social.icons/social.icons';
 import './hero.css';
 export function Hero() {
     return (
         <section className="hero">
             <div>
                 <ul>
-                    <li>
-                        <a href="https://github.com/XistriXostri">
-                            <img src="./icons/github.svg" alt="github icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/cristian-marti-iba%C3%B1ez/">
-                            <img
-                                src="./icons/linkedin.svg"
-                                alt="linkedin icon"
-                            />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./icons/email.svg" alt="email icon" />
-                        </a>
-                    </li>
+                    <SocialIcons />
                 </ul>
                 <div className="hero__buttons">
-                    <a href="#">
+                    <a href="#contactMe">
                         <img src="./icons/send.svg" alt="send icon" />
                         Contact Me
                     </a>

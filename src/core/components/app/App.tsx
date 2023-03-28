@@ -1,4 +1,5 @@
 import { About } from '../about/about';
+import { Contact } from '../contact/contact';
 import { Footer } from '../footer/footer';
 import { Header } from '../header/header';
 import { Hero } from '../hero/hero';
@@ -11,6 +12,7 @@ function App() {
             <Hero />
             <About />
             <Projects />
+            <Contact />
             <Footer />
         </>
     );

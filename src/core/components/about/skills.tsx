@@ -1,5 +1,3 @@
-import './skills.css';
-
 const skills = [
     {
         id: 1,

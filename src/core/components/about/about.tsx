@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Skills } from '../skills/skills';
+import { Skills } from './skills';
 import { TimeLane } from '../time.lane/time.lane';
 import './about.css';
 export function About() {

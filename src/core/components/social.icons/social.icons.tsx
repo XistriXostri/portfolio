@@ -26,7 +26,7 @@ export const SocialIcons = () => {
         <>
             {iconsList.map((icon) => {
                 return (
-                    <li>
+                    <li key={icon.id}>
                         <a
                             href={icon.href}
                             aria-label={icon.ariaLabel}

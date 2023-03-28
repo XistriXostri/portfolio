@@ -18,13 +18,13 @@ export function Navbar() {
             >
                 <ul>
                     <li>
-                        <a href="#">About Me</a>
+                        <a href="#aboutMe">About Me</a>
                     </li>
                     <li>
-                        <a href="#">My projects</a>
+                        <a href="#projects">My projects</a>
                     </li>
                     <li>
-                        <a href="#">Contact me</a>
+                        <a href="#contactMe">Contact me</a>
                     </li>
                 </ul>
             </div>

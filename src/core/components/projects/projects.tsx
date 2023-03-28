@@ -4,7 +4,7 @@ import { OtherProjects } from './projects.others';
 
 export function Projects() {
     return (
-        <section className="projects">
+        <section id="projects" className="projects">
             <div className="section__tittle">
                 <h1>My Projects</h1>
                 <span>Some of my projects</span>

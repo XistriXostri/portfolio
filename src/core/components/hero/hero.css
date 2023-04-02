@@ -3,6 +3,7 @@
     justify-content: center;
     height: 80vh;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .hero > div {
@@ -11,6 +12,7 @@
     align-items: center;
     height: 100%;
     justify-content: center;
+    width: 100%;
 }
 
 .hero ul {
@@ -18,7 +20,6 @@
     height: 0;
     padding: 0;
     justify-content: space-around;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -29,14 +30,15 @@
 
 .hero__buttons {
     display: flex;
-    width: 500px;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .hero__buttons a {
     background-color: var(--bg-buttons);
     padding: 12px;
-    width: 10rem;
+    width: 11rem;
     height: 2rem;
     box-sizing: border-box;
     color: var(--foreground);
@@ -47,7 +49,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.2rem;
+    cursor: pointer;
 }
+
 .hero__buttons a img {
     width: 2rem;
     height: 1.5rem;
@@ -108,24 +113,26 @@
 }
 
 @media (max-width: 520px) {
+    .hero {
+        justify-content: normal;
+    }
+
+    .hero__name {
+        margin-bottom: 2rem;
+    }
+
     .hero__name h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .hero__buttons {
         display: flex;
-        width: 500px;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     .hero__buttons a {
-        padding: 10px;
-        width: 8rem;
-        height: 2rem;
-        font-size: 0.75rem;
-    }
-    .hero__buttons a img {
-        width: 1.7rem;
-        height: 1.2rem;
+        width: 50%;
     }
 }

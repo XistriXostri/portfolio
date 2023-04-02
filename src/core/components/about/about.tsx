@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Skills } from './skills';
-import { TimeLane } from '../time.lane/time.lane';
+import { TimeLane } from './time.lane';
 import './about.css';
 export function About() {
     const [showEducation, setShowEducation] = useState(true);
@@ -46,7 +46,7 @@ export function About() {
                         }`}
                     >
                         <img src="./icons/school.svg" alt="school hat" />
-                        Eduación
+                        Studies
                     </button>
                     <button
                         onClick={() => {
@@ -59,7 +59,7 @@ export function About() {
                         }`}
                     >
                         <img src="./icons/work.svg" alt="briefcase" />
-                        Trabajo
+                        Work
                     </button>
                 </div>
                 <TimeLane showEducation={showEducation} />

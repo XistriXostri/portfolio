@@ -23,6 +23,8 @@ html {
         sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    width: 100%;
+    display: block;
 }
 
 body {

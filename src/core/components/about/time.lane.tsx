@@ -1,4 +1,3 @@
-import './time.lane.css';
 const educationHistory = [
     {
         id: 1,

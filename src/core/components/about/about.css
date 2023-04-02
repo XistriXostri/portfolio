@@ -95,6 +95,87 @@
     border-radius: 0.25rem;
 }
 
+.timeLane {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.timeLane ol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2.5rem;
+    list-style: none;
+}
+
+.timeLane ol li {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 100%;
+    position: relative;
+}
+
+.timeLane__spot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.timeLane__spot__icon {
+    display: flex;
+    background-color: rgb(229 231 235);
+    border-radius: 100px;
+    width: 2rem;
+    height: 2.25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeLane__spot__lane {
+    display: flex;
+    background-color: var(--bg-buttons);
+    width: 100%;
+    height: 0.125rem;
+}
+
+.timeLane__description {
+    margin-top: 0.75rem;
+    padding-right: 2rem;
+}
+
+.timeLane__description h1 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.timeLane__description time {
+    color: var(--text-secondary);
+    line-height: 1;
+    font-weight: 400;
+    font-size: 0.75;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.timeLane__description p {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+@media (max-width: 785px) {
+    .timeLane ol {
+        flex-direction: column;
+    }
+
+    .timeLane ol li {
+        margin-bottom: 2rem;
+    }
+}
+
 @media (max-width: 730px) {
     .skill__type {
         display: flex;

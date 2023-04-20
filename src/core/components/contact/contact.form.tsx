@@ -18,7 +18,7 @@ export function ContactForm() {
             .sendForm(
                 'default_service',
                 'template_l00sne9',
-                form.current!,
+                form.current as HTMLFormElement,
                 'Kf3XpsNZV7MwlHpFH'
             )
             .then(

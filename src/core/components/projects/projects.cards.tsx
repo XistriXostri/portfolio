@@ -1,3 +1,5 @@
+import { Chip } from '../chip/chip';
+
 const projectsInfo = [
     {
         id: 1,
@@ -40,11 +42,15 @@ export const ProjectsCards = () => {
                     <div className="projectCard__info">
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
-                        <ul>
+                        <div>
                             {project.technologies.map((technology) => (
-                                <li key={technology}>{technology}</li>
+                                <Chip
+                                    key={technology}
+                                    name={technology}
+                                    color="grey"
+                                />
                             ))}
-                        </ul>
+                        </div>
                         <div className="projectCard__links">
                             <a
                                 href={project.url_github}

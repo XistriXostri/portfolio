@@ -50,24 +50,13 @@
     margin-top: 0.5rem;
 }
 
-.projectCard__info ul {
+.projectCard__info div {
     justify-content: center;
     width: 40%;
     margin-top: 0.75rem;
     padding: 1rem;
     gap: 0.5rem;
-    flex-wrap: wrap;
     display: flex;
-    list-style: none;
-}
-
-.projectCard__info ul li {
-    font-weight: 700;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    padding: 0.25rem;
-    background-color: rgb(107 114 128);
-    border-radius: 0.25rem;
 }
 
 .projectCard__links {
@@ -153,14 +142,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 1rem;
-}
-
-.othersProjects__labels div {
-    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-    background-color: var(--bg-buttons);
-    border-radius: 0.5rem;
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (max-width: 800px) {

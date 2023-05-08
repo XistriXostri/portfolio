@@ -1,3 +1,5 @@
+import { Chip } from '../chip/chip';
+
 const skills = [
     {
         id: 1,
@@ -97,7 +99,13 @@ export function Skills() {
                     <>{skill.icon}</>
                     <p className="skill__cards">
                         {skill.skills.map((skill) => {
-                            return <span key={skill.id}>{skill.skill}</span>;
+                            return (
+                                <Chip
+                                    key={skill.id}
+                                    name={skill.skill}
+                                    color="grey"
+                                />
+                            );
                         })}
                     </p>
                 </div>

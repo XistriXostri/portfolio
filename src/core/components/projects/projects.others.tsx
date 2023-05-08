@@ -1,3 +1,5 @@
+import { Chip } from '../chip/chip';
+
 const othersProjects = [
     {
         id: 1,
@@ -116,7 +118,11 @@ export function OtherProjects() {
                     <p>{project.description}</p>
                     <div className="othersProjects__labels">
                         {project.technologies.map((technology) => (
-                            <div key={technology.id}>{technology.name}</div>
+                            <Chip
+                                key={technology.id}
+                                name={technology.name}
+                                color="purple"
+                            />
                         ))}
                     </div>
                 </div>

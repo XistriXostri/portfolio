@@ -88,13 +88,6 @@
     line-height: 1.75rem;
 }
 
-.skill__cards span {
-    font-weight: 700;
-    padding: 0.5rem;
-    background-color: rgb(107 114 128);
-    border-radius: 0.25rem;
-}
-
 .timeLane {
     display: flex;
     flex-direction: column;

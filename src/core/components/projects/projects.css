@@ -1,22 +1,36 @@
 .projectCard {
     display: flex;
-    margin-top: 2.5rem;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse;
-    height: 24rem;
-    position: relative;
+    flex-direction: column;
+    height: auto;
+    gap: 1rem;
+    margin-top: 2.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    border-radius: 1rem;
+    --tw-shadow-color: var(--nav-shadow);
+    --tw-shadow: var(--tw-shadow-colored);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+}
+
+.projectCard > h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-align: center;
+    width: 80%;
+    font-weight: 40%;
 }
 
 .projectCard > img {
     color: transparent;
     border-radius: 0.25rem;
-    width: 60%;
-    height: 24rem;
+    width: 80%;
+    height: auto;
     right: 0;
-    position: absolute;
+    position: relative;
     object-fit: cover;
     max-width: 100%;
     display: block;
@@ -24,27 +38,19 @@
 
 .projectCard__info {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin-top: 0.5rem;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
-.projectCard__info h1 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    text-align: start;
-    width: 40%;
-    font-weight: 40%;
-}
 .projectCard__info p {
     font-weight: 700;
-    text-align: start;
+    text-align: center;
     padding: 1rem;
-    width: 50%;
+    width: 70%;
     border-radius: 0.5rem;
-    background-color: var(--bg-buttons);
     font-size: 1.125rem;
     line-height: 1.75rem;
     margin-top: 0.5rem;
@@ -172,7 +178,6 @@
         width: 100%;
         height: auto;
         position: relative;
-        object-fit: cover;
         max-width: 100%;
     }
 
@@ -188,11 +193,9 @@
     }
 
     .projectCard__info p {
-        background-color: transparent;
         width: 100%;
         font-size: 1rem;
         margin-top: 0;
-        text-align: center;
     }
 
     .projectCard__info ul {

@@ -35,12 +35,13 @@ export const ProjectsCards = () => {
         <section>
             {projectsInfo.map((project) => (
                 <div key={project.id} className="projectCard">
+                    <h1>{project.title}</h1>
+
                     <img
                         src={`/projects/project-${project.id}.PNG`}
                         alt={project.title}
                     />
                     <div className="projectCard__info">
-                        <h1>{project.title}</h1>
                         <p>{project.description}</p>
                         <div>
                             {project.technologies.map((technology) => (

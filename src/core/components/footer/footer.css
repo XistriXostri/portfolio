@@ -1,4 +1,4 @@
-.footer {
+#footer {
     width: 100%;
 }
 
@@ -54,7 +54,7 @@
 }
 
 @media (max-width: 615px) {
-    .footer p {
+    #footer p {
         text-align: center;
         margin-left: 1rem;
         margin-right: 1rem;

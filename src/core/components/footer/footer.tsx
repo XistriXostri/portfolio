@@ -3,7 +3,7 @@ import './footer.css';
 
 export function Footer() {
     return (
-        <section className="footer">
+        <section id="footer">
             <div className="footer__bar" />
             <div className="footer__acknowledgments">
                 <div>

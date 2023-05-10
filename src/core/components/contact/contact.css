@@ -1,7 +1,7 @@
 .contactMe {
     padding-top: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     align-items: center;
     min-height: 100vh;
@@ -12,6 +12,7 @@
 
     margin-left: 2rem;
     margin-right: 2rem;
+    gap: 2rem;
 }
 
 .contactMe__actionCall {
@@ -91,7 +92,7 @@
 }
 
 .contactMe__Form {
-    width: 50%;
+    width: 30rem;
     display: block;
     --p-separation: 0;
     --w-aside: 100%;

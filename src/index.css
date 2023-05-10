@@ -32,6 +32,11 @@ body {
     color: var(--foreground);
 }
 
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .section__tittle {
     display: flex;
     align-items: center;

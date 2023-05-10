@@ -7,10 +7,17 @@
     width: 100%;
 }
 
+.aboutMe__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .aboutMe__description p {
     margin-top: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.75rem;
+    width: 80%;
 }
 
 .aboutMe__description span {

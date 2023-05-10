@@ -2,7 +2,7 @@ import { SocialIcons } from '../social.icons/social.icons';
 import './hero.css';
 export function Hero() {
     return (
-        <section className="hero">
+        <section id="hero">
             <div>
                 <ul>
                     <SocialIcons />

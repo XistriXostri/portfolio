@@ -12,7 +12,7 @@ export function Hero() {
                         <img src="./icons/send.svg" alt="send icon" />
                         Contact Me
                     </a>
-                    <a href="https://drive.google.com/file/d/1t9nNUo_Yi7zDMUFw1cuaMMpzdbhtbrxe/view?usp=share_link">
+                    <a href="https://drive.google.com/file/d/1ikwiLoH-Mn4FOAAzou4L_c9wXwpMfhBp/view?usp=share_link">
                         <img src="./icons/download.svg" alt="download icon" />
                         Download CV
                     </a>

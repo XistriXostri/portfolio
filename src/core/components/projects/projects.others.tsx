@@ -67,8 +67,7 @@ const othersProjects = [
     {
         id: 4,
         title: 'Calculator',
-        description:
-            'Sitio web para una empresa de comida rápida, con un diseño moderno y minimalista, con un menú interactivo y un carrito de compras.',
+        description: 'Calculator online',
         url_github: 'https://github.com/XistriXostri/202210-W1-cristian-marti',
         url_web:
             'https://202210-w1-cristian-marti.netlify.app/calculator/calculadora.html',

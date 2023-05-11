@@ -33,6 +33,7 @@
     width: 100%;
     justify-content: center;
     gap: 2rem;
+    z-index: 9998;
 }
 
 .hero__buttons a {

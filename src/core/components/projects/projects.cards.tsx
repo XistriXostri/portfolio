@@ -8,7 +8,7 @@ const projectsInfo = [
             'Allows you to view, create, edit or delete customized gym routines',
         url_github: 'https://github.com/XistriXostri/gym-routines',
         url_web: 'https://gym-routines.netlify.app/',
-        technologies: ['ReactJS', 'TypeScript', 'Redux', 'Jest'],
+        technologies: ['ReactJS', 'TypeScript', 'Redux', 'Jest', 'Firebase'],
     },
     {
         id: 2,

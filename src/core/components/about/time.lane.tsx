@@ -41,7 +41,19 @@ const workHistory = [
         id: 4,
         title: 'Freelance',
         text: 'Frontend Developer',
-        date: 'October 2020 - present',
+        date: 'October 2020 - September 2023',
+    },
+    {
+        id: 5,
+        title: 'Robert Walters',
+        text: 'IT Recruiter Consultant',
+        date: 'September 2023 - July 2024',
+    },
+    {
+        id: 6,
+        title: 'Kiteris Solutions',
+        text: 'IT Recruiter/RRHH',
+        date: 'July 2024 - present',
     },
 ];
 export function TimeLane({ showEducation }: { showEducation: boolean }) {
